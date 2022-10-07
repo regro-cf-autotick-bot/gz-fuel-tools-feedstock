@@ -79,7 +79,7 @@ about:
   home: https://github.com/gazebosim/{{ repo_name }}
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'A client library and command line tools for interacting with Gazebo Fuel servers.'
+  summary: A client library and command line tools for interacting with Gazebo Fuel servers.
 
 extra:
   feedstock-name: {{ repo_name }}
