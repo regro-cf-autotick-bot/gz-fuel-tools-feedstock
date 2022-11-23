@@ -1,7 +1,7 @@
 {% set component_name = "fuel-tools" %}
 {% set cmake_name = "fuel_tools" %}
 {% set repo_name = "gz-" + component_name %}
-{% set version = "8_8.0.0" %}
+{% set version = "8_8.0.1" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = repo_name + major_version %}
@@ -15,10 +15,10 @@ package:
 
 source:
   - url: https://github.com/gazebosim/{{ repo_name }}/archive/{{ repo_name }}{{ version }}.tar.gz
-    sha256: 3351fe587de35303921dc6af5ebf0b919ca9dbe49a74a47c023667b8c277e396
+    sha256: 7e42654acd2b5cb1f4d5cea34cf14d98117afb9505f4d7eacdbbb20e8c97cb80
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: {{ cxx_name }}
@@ -79,7 +79,7 @@ about:
   home: https://github.com/gazebosim/{{ repo_name }}
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'A client library and command line tools for interacting with Gazebo Fuel servers.'
+  summary: A client library and command line tools for interacting with Gazebo Fuel servers.
 
 extra:
   feedstock-name: {{ repo_name }}
