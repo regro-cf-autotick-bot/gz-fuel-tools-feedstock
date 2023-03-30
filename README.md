@@ -1,11 +1,11 @@
-About gz-fuel-tools
-===================
+About gz-fuel-tools-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gz-fuel-tools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gazebosim/gz-fuel-tools
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gz-fuel-tools-feedstock/blob/main/LICENSE.txt)
 
 Summary: A client library and command line tools for interacting with Gazebo Fuel servers.
 
