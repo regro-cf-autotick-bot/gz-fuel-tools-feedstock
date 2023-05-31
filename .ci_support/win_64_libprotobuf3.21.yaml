@@ -9,7 +9,7 @@ cxx_compiler:
 jsoncpp:
 - 1.9.5
 libcurl:
-- '7'
+- '8'
 libprotobuf:
 - '3.21'
 libzip:
