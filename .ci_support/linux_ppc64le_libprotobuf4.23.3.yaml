@@ -3,7 +3,7 @@ c_compiler:
 c_compiler_version:
 - '12'
 cdt_name:
-- cos6
+- cos7
 channel_sources:
 - conda-forge
 channel_targets:
@@ -19,11 +19,11 @@ jsoncpp:
 libcurl:
 - '8'
 libprotobuf:
-- 4.23.2
+- 4.23.3
 libzip:
 - '1'
 target_platform:
-- linux-64
+- linux-ppc64le
 tinyxml2:
 - '9'
 zip_keys:
