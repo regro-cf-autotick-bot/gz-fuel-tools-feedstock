@@ -1,5 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+- '10.13'
 c_compiler:
 - clang
 c_compiler_version:
@@ -17,7 +17,7 @@ jsoncpp:
 libcurl:
 - '8'
 libprotobuf:
-- 4.23.3
+- 4.23.4
 libzip:
 - '1'
 macos_machine:
