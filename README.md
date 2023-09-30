@@ -81,8 +81,8 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-gz--fuel--tools8-green.svg)](https://anaconda.org/conda-forge/gz-fuel-tools8) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gz-fuel-tools8.svg)](https://anaconda.org/conda-forge/gz-fuel-tools8) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gz-fuel-tools8.svg)](https://anaconda.org/conda-forge/gz-fuel-tools8) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gz-fuel-tools8.svg)](https://anaconda.org/conda-forge/gz-fuel-tools8) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libgz--fuel--tools8-green.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools8) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgz-fuel-tools8.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools8) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgz-fuel-tools8.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools8) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgz-fuel-tools8.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools8) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gz--fuel--tools9-green.svg)](https://anaconda.org/conda-forge/gz-fuel-tools9) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gz-fuel-tools9.svg)](https://anaconda.org/conda-forge/gz-fuel-tools9) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gz-fuel-tools9.svg)](https://anaconda.org/conda-forge/gz-fuel-tools9) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gz-fuel-tools9.svg)](https://anaconda.org/conda-forge/gz-fuel-tools9) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libgz--fuel--tools9-green.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools9) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgz-fuel-tools9.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools9) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgz-fuel-tools9.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools9) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgz-fuel-tools9.svg)](https://anaconda.org/conda-forge/libgz-fuel-tools9) |
 
 Installing gz-fuel-tools
 ========================
@@ -94,41 +94,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `gz-fuel-tools8, libgz-fuel-tools8` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `gz-fuel-tools9, libgz-fuel-tools9` can be installed with `conda`:
 
 ```
-conda install gz-fuel-tools8 libgz-fuel-tools8
-```
-
-or with `mamba`:
-
-```
-mamba install gz-fuel-tools8 libgz-fuel-tools8
-```
-
-It is possible to list all of the versions of `gz-fuel-tools8` available on your platform with `conda`:
-
-```
-conda search gz-fuel-tools8 --channel conda-forge
+conda install gz-fuel-tools9 libgz-fuel-tools9
 ```
 
 or with `mamba`:
 
 ```
-mamba search gz-fuel-tools8 --channel conda-forge
+mamba install gz-fuel-tools9 libgz-fuel-tools9
+```
+
+It is possible to list all of the versions of `gz-fuel-tools9` available on your platform with `conda`:
+
+```
+conda search gz-fuel-tools9 --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search gz-fuel-tools9 --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search gz-fuel-tools8 --channel conda-forge
+mamba repoquery search gz-fuel-tools9 --channel conda-forge
 
-# List packages depending on `gz-fuel-tools8`:
-mamba repoquery whoneeds gz-fuel-tools8 --channel conda-forge
+# List packages depending on `gz-fuel-tools9`:
+mamba repoquery whoneeds gz-fuel-tools9 --channel conda-forge
 
-# List dependencies of `gz-fuel-tools8`:
-mamba repoquery depends gz-fuel-tools8 --channel conda-forge
+# List dependencies of `gz-fuel-tools9`:
+mamba repoquery depends gz-fuel-tools9 --channel conda-forge
 ```
 
 
