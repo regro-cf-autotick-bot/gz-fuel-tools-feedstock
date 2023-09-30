@@ -37,7 +37,7 @@ outputs:
       host:
         - libgz-cmake3
         - libgz-math7
-        - libgz-msgs9
+        - libgz-msgs10
         - libgz-common5
         - libgz-tools2
         - libcurl
