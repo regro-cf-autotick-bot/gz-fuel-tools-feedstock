@@ -11,7 +11,7 @@ jsoncpp:
 libcurl:
 - '8'
 libprotobuf:
-- 4.25.2
+- 4.25.3
 libzip:
 - '1'
 target_platform:
