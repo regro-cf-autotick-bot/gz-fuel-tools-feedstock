@@ -1,7 +1,7 @@
 {% set component_name = "fuel-tools" %}
 {% set cmake_name = "fuel_tools" %}
 {% set repo_name = "gz-" + component_name %}
-{% set version = "9_9.0.2" %}
+{% set version = "9_9.0.3" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = repo_name + major_version %}
@@ -15,7 +15,7 @@ package:
 
 source:
   - url: https://github.com/gazebosim/{{ repo_name }}/archive/{{ repo_name }}{{ version }}.tar.gz
-    sha256: 1000b56c96f087fffd64c1812916c4f8d6609221b6ea2b8f0ffd85e18b995aab
+    sha256: fba6798efd7db5a6ac824113123effd19e9907cd479d5d1b1314bb3dd4c6f705
 
 build:
   number: 0
