@@ -17,7 +17,7 @@ source:
     sha256: fba6798efd7db5a6ac824113123effd19e9907cd479d5d1b1314bb3dd4c6f705
 
 build:
-  number: 3
+  number: 4
 
 outputs:
   - name: {{ cxx_name }}
